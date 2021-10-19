@@ -1,5 +1,4 @@
-// Copyright (c) 2014, Steven Stallion
-// All rights reserved.
+// Copyright (C) 2014 Steven Stallion <sstallion@gmail.com>
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions
@@ -22,10 +21,10 @@
 // OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 // SUCH DAMAGE.
 
-// Package eeprom provides a low-level interface to USB EEPROM programmers that
-// conform to http://github.com/sstallion/usb-eeprom/wiki/Protocol. Due to the
-// chip-agnostic nature of the protocol, constraints such as capacity and
-// alignment must be enforced by the caller.
+// Package eeprom provides an idiomatic interface to USB EEPROM programmers
+// that conform to http://github.com/sstallion/usb-eeprom/wiki/Protocol. Due
+// to the chip-agnostic nature of the protocol, constraints such as capacity
+// and alignment must be enforced by the caller.
 package eeprom
 
 /*
